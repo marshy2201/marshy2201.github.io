@@ -7,23 +7,21 @@ body {
 // Navbar
 
 .navbar {
-  width: 17rem;
   background: #043A7C;
-  height: 100vh;
+  
+  @media (min-width: 992px) {
+    width: 17rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .navbar-nav {
   text-transform: uppercase;
   letter-spacing: 0.05rem;
   font-weight: 800;
-
-  .nav-link {
-    color: rgba(255, 255, 255, 0.5)!important;
-
-    &:hover, &.active {
-      color: white!important;
-    }
-  }
 }
 
 #lewis-image {
