@@ -7,7 +7,7 @@ const NavbarComponent = () => (
     <Navbar.Brand href="#about" className="mr-0">
       <span className="d-block d-lg-none">Lewis Marshall</span>
       <span className="d-none d-lg-block lewis-image-wrapper p-2">
-        <img src={LewisImage} id="lewis-image" />
+        <img src={LewisImage} id="lewis-image" alt="Lewis Marshall" />
       </span>
     </Navbar.Brand>
     <Navbar.Toggle />
