@@ -1,15 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;800&family=Saira+Condensed:wght@500;700&display=swap');
+@import "~bootstrap/scss/bootstrap";
+
+// variables
+
+$dark-blue: #043A7C;
+$blue: #3E7ECD;
+
+// General
 
 body {
   font-family: 'Mulish', sans-serif;
+  padding-top: 3.375rem;
+  color: #6c757d;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1 {
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: #343a40;
+}
+
+.lead {
+  font-weight: 400;
 }
 
 // Navbar
 
 .navbar {
-  background: #043A7C;
+  background: $dark-blue;
   
-  @media (min-width: 992px) {
+  @include media-breakpoint-up(lg) {
     width: 17rem;
     height: 100vh;
     display: flex;
@@ -30,8 +58,58 @@ body {
 }
 
 .lewis-image-wrapper {
-  background: #3E7ECD;
+  background: $blue;
   border-radius: 100%;
   width: 80%;
   margin: auto;
+}
+
+// section 
+
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  @include media-breakpoint-up(lg) {
+    min-height: 100vh;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+.surname {
+  color: $dark-blue; 
+}
+
+.subheading {
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 1.5rem;
+
+  a {
+    color: $dark-blue;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+}
+
+// social icons
+
+.social-icons {
+  a {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100%; 
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+
+    &:hover {
+      background: $dark-blue!important;
+    }
+  }
 }

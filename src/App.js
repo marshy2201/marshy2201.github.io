@@ -2,13 +2,16 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 import Navbar from './components/Navbar';
+import About from './components/About';
 import { Container } from 'react-bootstrap';
 
 function App() {
   return (
     <>  
       <Navbar />
-      <Container fluid>
+      <Container fluid className="p-lg-0">
+        <About />
+        <hr />
       </Container>
     </>
   );
