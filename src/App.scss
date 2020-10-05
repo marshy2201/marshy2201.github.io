@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
+
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+// Navbar
+
+.navbar {
+  width: 17rem;
+  background: #043A7C;
+  height: 100vh;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  font-weight: 800;
+
+  .nav-link {
+    color: rgba(255, 255, 255, 0.5)!important;
+
+    &:hover, &.active {
+      color: white!important;
+    }
+  }
+}
+
+#lewis-image {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.lewis-image-wrapper {
+  background: #3E7ECD;
+  border-radius: 100%;
+  width: 80%;
+  margin: auto;
+}
