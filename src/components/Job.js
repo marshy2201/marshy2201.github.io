@@ -6,7 +6,7 @@ const Job = ({ position, company, about, responsibilities, from, to }) => {
   if (responsibilities) {
     resArray = 
     <ul className="mb-4">
-      {responsibilities.map(resp => (<li>{ resp }</li>))}
+      {responsibilities.map((resp, index) => (<li key={index}>{ resp }</li>))}
     </ul>
   } 
 
