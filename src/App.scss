@@ -130,3 +130,24 @@ section {
     }
   }
 }
+
+// programming languages & tools icons
+
+.language-tools-icons {
+  font-size: 3rem;
+
+  svg {
+    margin-right: 1.5rem;
+  }
+}
+
+.mongodb-svg,
+.jquery-svg {
+  width: 110px;
+  height: 30px;
+}
+
+.vscode-svg {
+  width: 55px;
+  height: 40px;
+}
