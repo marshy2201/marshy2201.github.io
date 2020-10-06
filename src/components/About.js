@@ -2,7 +2,7 @@ import React from 'react';
 import SocialIcons from './SocialIcons';
 
 const About = () => (
-  <section className="d-flex flex-column justify-content-center">
+  <section className="d-flex flex-column justify-content-center" id="about">
     <h1>Lewis <span className="surname">Marshall</span></h1>
     <div className="d-flex flex-column subheading mb-5">
       <span>07960072674</span>
