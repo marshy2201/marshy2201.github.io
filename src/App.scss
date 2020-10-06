@@ -6,6 +6,12 @@
 $dark-blue: #043A7C;
 $blue: #3E7ECD;
 
+// colors
+
+.dark-blue {
+  color: $dark-blue;
+}
+
 // General
 
 body {
@@ -19,13 +25,24 @@ body {
   }
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: 'Saira Condensed', sans-serif;
-  font-size: 5rem;
   font-weight: 700;
-  text-transform: uppercase;
   margin-bottom: 0;
   color: #343a40;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 .lead {
