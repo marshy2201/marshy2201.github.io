@@ -18,7 +18,7 @@ const Job = ({ position, company, about, responsibilities, from, to }) => {
         <p>{ about }</p>
         { resArray }
       </div>
-      <div className="flex-shrink-0 dark-blue">
+      <div className="flex-shrink-0 text-dark-blue">
         <span>{ from } - { to }</span>
       </div>
     </div>
