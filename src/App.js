@@ -4,6 +4,7 @@ import './App.scss';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Experience from './components/Experience';
+import Education from './components/Education';
 import { Container } from 'react-bootstrap';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <hr />
         <Experience />
         <hr />
+        <Education />
       </Container>
     </>
   );
