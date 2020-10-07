@@ -1,0 +1,34 @@
+body {
+  font-family: 'Mulish', sans-serif;
+  padding-top: 3.375rem;
+  color: #6c757d;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #343a40;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.lead {
+  font-weight: 400;
+}

@@ -1,0 +1,27 @@
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  @include media-breakpoint-up(lg) {
+    min-height: 100vh;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+.surname {
+  color: $dark-blue; 
+}
+
+.subheading {
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 1.5rem;
+
+  a {
+    color: $blue;
+
+    &:hover {
+      color: $dark-blue;
+    }
+  }
+}
