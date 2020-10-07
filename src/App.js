@@ -11,14 +11,13 @@ import { Container } from 'react-bootstrap';
 function App() {
   return (
     <>  
+      <div class="grey-clip-path-background"></div>
+      <div class="dark-grey-clip-path-background"></div>
       <Navbar />
       <Container fluid className="p-lg-0">
         <About />
-        <hr />
         <Experience />
-        <hr />
         <Education />
-        <hr />
         <Skills />
       </Container>
     </>
