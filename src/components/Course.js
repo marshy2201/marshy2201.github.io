@@ -4,7 +4,7 @@ const Course = ({ course, website, link, completed }) => (
   <div className="mb-4">
     <h3>{course}</h3>
     <div className="subheading">
-      <a href={link} target="_blank">{website}</a>
+      <a href={link} target="_blank" rel="noopener noreferrer">{website}</a>
     </div>
     <span>{completed}</span>
   </div>
