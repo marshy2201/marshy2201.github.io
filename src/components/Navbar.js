@@ -62,6 +62,7 @@ const NavbarComponent = () => {
             onClick={closeNav}
             className="nav-link"
           >Skills</Link>
+          <Nav.Link href="/lewis-marshall-cv.pdf" active={false} target="_blank">CV</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
