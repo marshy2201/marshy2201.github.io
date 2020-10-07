@@ -32,7 +32,7 @@ const Skills = () => {
   ];
 
   return (
-    <section class="d-flex flex-column justify-content-center" id="skills">
+    <section className="d-flex flex-column justify-content-center" id="skills">
       <h2 className="mb-3">Skills</h2>
       <div className="subheading">Programming Languages &amp; Tools</div>
       <div className="language-tools-icons">
