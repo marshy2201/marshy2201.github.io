@@ -2,7 +2,7 @@ import React from 'react';
 import Job from './Job';
 
 const Experience = () => (
-  <section id="experience">
+  <section className="d-flex flex-column justify-content-center" id="experience">
     <h2 className="mb-4">Experience</h2>
     <Job 
       position="Web Developer"

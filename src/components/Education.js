@@ -2,7 +2,7 @@ import React from 'react';
 import Course from './Course';
 
 const Education = () => (
-  <section id="education">
+  <section className="d-flex flex-column justify-content-center" id="education">
     <h2 className="mb-4">Education</h2>
     <Course 
       course="Learn React" 
