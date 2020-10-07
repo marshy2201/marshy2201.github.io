@@ -11,7 +11,10 @@ const NavbarComponent = () => {
   const closeNav = () => setExpanded(false);
 
   // scroll to top function
-  const scrollToTop = () => scroll.scrollToTop();
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+    setExpanded(false);
+  }
 
   return (
     <Navbar 
