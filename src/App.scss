@@ -12,6 +12,10 @@ $blue: #3E7ECD;
   color: $dark-blue;
 }
 
+.text-blue {
+  color: $blue;
+}
+
 // General
 
 body {
@@ -103,10 +107,10 @@ section {
   font-size: 1.5rem;
 
   a {
-    color: $dark-blue;
+    color: $blue;
 
     &:hover {
-      color: $blue;
+      color: $dark-blue;
     }
   }
 }
