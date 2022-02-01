@@ -48,7 +48,7 @@ const Skills = () => {
         <OtherSkillIcons />
       </div>
       <ul className="mt-4">
-        <li>Over 3 years experience using the MEEN stack (MongoDB, Express.js, Ember.js, Node.js)</li>
+        <li>Over 4 years experience using the MEEN stack (MongoDB, Express.js, Ember.js, Node.js)</li>
         <li>Projects can be viewed on my <a href="https://github.com/marshy2201" target="_blank" rel="noopener noreferrer" className="text-blue">Github</a></li>
         <li>
           Skills I have studied can be viewed on my <a href="https://teamtreehouse.com/lewismarshall" target="_blank" rel="noopener noreferrer" className="text-blue">treehouse</a> profile
