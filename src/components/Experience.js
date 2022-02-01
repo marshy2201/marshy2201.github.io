@@ -16,7 +16,7 @@ const Experience = () => (
         "Worked using the waterfall environment method."
       ]}
       from="July 2017"
-      to="October 2020"
+      to="Present"
     />
   </section>
 )
